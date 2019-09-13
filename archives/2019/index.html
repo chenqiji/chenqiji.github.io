@@ -75,17 +75,17 @@
 
 
 
-<meta name="description" content="今天在学习Spring Boot + Mybatis整合Mybatis Generator + mysql时遇到一些坑，之前的时候遇到过，但是没有认真处理，这次运行成功后作一些笔记记录，同时慢慢养成写笔记的习惯 1.首先Mybatis Generator是mybatis根据数据库表生成相应的Java实体对象和对应的mapper进行操作数据库 ，只支持单表查询， 项目开始先得创建一个Spring B">
+<meta name="description" content="在学习SpringBoot的过程中，记录一下Redis的使用。 Redis作为NoSQL，常应用的场景有很多，具体不一一举例，毕竟经验尚浅。目前只应用在项目的一些不常更改的缓存和短信验证时限中。当然Redis的时限特性应用的场景更广，我也持续学习中……接下来简单记录一下Spring Boot整合Redis和其的一些操作特性。  下载和安装redis就不做记录了，百度或者谷歌一下即可  首先自行快速">
 <meta property="og:type" content="article">
-<meta property="og:title" content="记录Spring Boot + Mybatis整合Mybatis Generator + mysql">
-<meta property="og:url" content="https://chenqiji.github.io/2019/09/04/记录Spring Boot + Mybatis整合Mybatis Generator + mysql/index.html">
+<meta property="og:title" content="Spring Boot整合 Redis">
+<meta property="og:url" content="https://chenqiji.github.io/2019/09/13/Spring Boot 整合 Redis/index.html">
 <meta property="og:site_name" content="桔子cc的博客">
-<meta property="og:description" content="今天在学习Spring Boot + Mybatis整合Mybatis Generator + mysql时遇到一些坑，之前的时候遇到过，但是没有认真处理，这次运行成功后作一些笔记记录，同时慢慢养成写笔记的习惯 1.首先Mybatis Generator是mybatis根据数据库表生成相应的Java实体对象和对应的mapper进行操作数据库 ，只支持单表查询， 项目开始先得创建一个Spring B">
+<meta property="og:description" content="在学习SpringBoot的过程中，记录一下Redis的使用。 Redis作为NoSQL，常应用的场景有很多，具体不一一举例，毕竟经验尚浅。目前只应用在项目的一些不常更改的缓存和短信验证时限中。当然Redis的时限特性应用的场景更广，我也持续学习中……接下来简单记录一下Spring Boot整合Redis和其的一些操作特性。  下载和安装redis就不做记录了，百度或者谷歌一下即可  首先自行快速">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-09-04T16:19:35.626Z">
+<meta property="og:updated_time" content="2019-09-13T13:45:00.796Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="记录Spring Boot + Mybatis整合Mybatis Generator + mysql">
-<meta name="twitter:description" content="今天在学习Spring Boot + Mybatis整合Mybatis Generator + mysql时遇到一些坑，之前的时候遇到过，但是没有认真处理，这次运行成功后作一些笔记记录，同时慢慢养成写笔记的习惯 1.首先Mybatis Generator是mybatis根据数据库表生成相应的Java实体对象和对应的mapper进行操作数据库 ，只支持单表查询， 项目开始先得创建一个Spring B">
+<meta name="twitter:title" content="Spring Boot整合 Redis">
+<meta name="twitter:description" content="在学习SpringBoot的过程中，记录一下Redis的使用。 Redis作为NoSQL，常应用的场景有很多，具体不一一举例，毕竟经验尚浅。目前只应用在项目的一些不常更改的缓存和短信验证时限中。当然Redis的时限特性应用的场景更广，我也持续学习中……接下来简单记录一下Spring Boot整合Redis和其的一些操作特性。  下载和安装redis就不做记录了，百度或者谷歌一下即可  首先自行快速">
 
 
 
@@ -113,7 +113,7 @@
 
 
 
-  <link rel="canonical" href="https://chenqiji.github.io/2019/09/04/记录Spring Boot + Mybatis整合Mybatis Generator + mysql/">
+  <link rel="canonical" href="https://chenqiji.github.io/2019/09/13/Spring Boot 整合 Redis/">
 
 
 
@@ -219,7 +219,7 @@
         
           
         
-        嗯..! 目前共计 3 篇日志。 继续努力。
+        嗯..! 目前共计 4 篇日志。 继续努力。
       </span>
 
       
@@ -233,6 +233,41 @@
           <div class="collection-title">
             <h1 class="archive-year" id="archive-year-2019">2019</h1>
           </div>
+        
+        
+
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/2019/09/13/Spring Boot 整合对象存储(oos)/" itemprop="url">
+              
+                <span itemprop="name">Spring Boot整合对象存储（oos）上传</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated" datetime="2019-09-13T22:05:38+08:00" content="2019-09-13">
+          09-13
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+
+      
+
+        
+        
+        
+
         
         
 
@@ -382,7 +417,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
