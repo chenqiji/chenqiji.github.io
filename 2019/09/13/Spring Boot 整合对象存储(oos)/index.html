@@ -75,17 +75,17 @@
 
 
 
-<meta name="description" content="在学习SpringBoot的过程中，记录一下Redis的使用。 Redis作为NoSQL，常应用的场景有很多，具体不一一举例，毕竟经验尚浅。目前只应用在项目的一些不常更改的缓存和短信验证时限中。当然Redis的时限特性应用的场景更广，我也持续学习中……接下来简单记录一下Spring Boot整合Redis和其的一些操作特性。  下载和安装redis就不做记录了，百度或者谷歌一下即可  首先自行快速">
+<meta name="description" content="在学习Spring Boot的过程中，学习了整合对象存储（OOS）上传的只是，也再次做一下记录。 现在各大服务器商很多，这次学习的是使用UCloud的对象存储，至于如何创建账号和使用也不一一记录了。  首先，在pom.xml中添加UCloud的客户端依赖: 12345&amp;lt;dependency&amp;gt;	&amp;lt;groupId&amp;gt;cn.ucloud.ufile&amp;lt;/groupId&amp;gt;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Spring Boot整合 Redis">
-<meta property="og:url" content="https://chenqiji.github.io/2019/09/13/Spring Boot 整合 Redis/index.html">
+<meta property="og:title" content="Spring Boot整合对象存储（oos）上传">
+<meta property="og:url" content="https://chenqiji.github.io/2019/09/13/Spring Boot 整合对象存储(oos)/index.html">
 <meta property="og:site_name" content="桔子cc的博客">
-<meta property="og:description" content="在学习SpringBoot的过程中，记录一下Redis的使用。 Redis作为NoSQL，常应用的场景有很多，具体不一一举例，毕竟经验尚浅。目前只应用在项目的一些不常更改的缓存和短信验证时限中。当然Redis的时限特性应用的场景更广，我也持续学习中……接下来简单记录一下Spring Boot整合Redis和其的一些操作特性。  下载和安装redis就不做记录了，百度或者谷歌一下即可  首先自行快速">
+<meta property="og:description" content="在学习Spring Boot的过程中，学习了整合对象存储（OOS）上传的只是，也再次做一下记录。 现在各大服务器商很多，这次学习的是使用UCloud的对象存储，至于如何创建账号和使用也不一一记录了。  首先，在pom.xml中添加UCloud的客户端依赖: 12345&amp;lt;dependency&amp;gt;	&amp;lt;groupId&amp;gt;cn.ucloud.ufile&amp;lt;/groupId&amp;gt;">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-09-13T13:45:00.796Z">
+<meta property="og:updated_time" content="2019-09-13T14:34:34.310Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Spring Boot整合 Redis">
-<meta name="twitter:description" content="在学习SpringBoot的过程中，记录一下Redis的使用。 Redis作为NoSQL，常应用的场景有很多，具体不一一举例，毕竟经验尚浅。目前只应用在项目的一些不常更改的缓存和短信验证时限中。当然Redis的时限特性应用的场景更广，我也持续学习中……接下来简单记录一下Spring Boot整合Redis和其的一些操作特性。  下载和安装redis就不做记录了，百度或者谷歌一下即可  首先自行快速">
+<meta name="twitter:title" content="Spring Boot整合对象存储（oos）上传">
+<meta name="twitter:description" content="在学习Spring Boot的过程中，学习了整合对象存储（OOS）上传的只是，也再次做一下记录。 现在各大服务器商很多，这次学习的是使用UCloud的对象存储，至于如何创建账号和使用也不一一记录了。  首先，在pom.xml中添加UCloud的客户端依赖: 12345&amp;lt;dependency&amp;gt;	&amp;lt;groupId&amp;gt;cn.ucloud.ufile&amp;lt;/groupId&amp;gt;">
 
 
 
@@ -113,7 +113,7 @@
 
 
 
-  <link rel="canonical" href="https://chenqiji.github.io/2019/09/13/Spring Boot 整合 Redis/">
+  <link rel="canonical" href="https://chenqiji.github.io/2019/09/13/Spring Boot 整合对象存储(oos)/">
 
 
 
